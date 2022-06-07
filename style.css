@@ -1,8 +1,14 @@
-html {
-	background-color: rgb(24, 26, 27) ;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.container {	
+html {
+	background-color: rgb(24, 26, 27);
+}
+
+.container {
 	background-color: #3535eb;
 	width: 412px;
 	height: 915px;
@@ -13,18 +19,19 @@ html {
 	flex-wrap: wrap;
 	row-gap: 150px;
 	column-gap: 40px;
-	
 }
 
 .logo {
-	width: 412px;
-	height: 915px;
+	width: 150px;
+	height: 150px;
 	position: absolute;
-	margin-top: 70px;
-	margin-left: 90px;
+	top: 0;
+	left: 0;
+	margin-top: 35px;
+	margin-left: 70px;
 }
 
-.box {	
+.box {
 	width: 150px;
 	height: 150px;
 }
