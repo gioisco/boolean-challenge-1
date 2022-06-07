@@ -1,0 +1,30 @@
+html {
+	background-color: rgb(24, 26, 27) ;
+}
+
+.container {	
+	background-color: #3535eb;
+	width: 412px;
+	height: 915px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	row-gap: 150px;
+	column-gap: 40px;
+	
+}
+
+.logo {
+	width: 412px;
+	height: 915px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 90px;
+}
+
+.box {	
+	width: 150px;
+	height: 150px;
+}
